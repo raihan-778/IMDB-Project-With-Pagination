@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Movie App</h1>
+      <div class="sort_item">
+        <label for="sort_by">Sort by: </label>
+        <select name="sort_by" id="sort_by">
+          <option value="revenue.asc" class="revenue_asc">Aevenue Asc</option>
+          <option value="popularity.asc" class="popularity_asc">
+            Popularity Asc
+          </option>
+          <option value="popularity.desc" class="popularity_desc">
+            Popularity Desc
+          </option>
+
+          <option value="release_date.asc" class="release_date_asc">
+            Release Date Asc
+          </option>
+
+          <option value="vote_count.desc" class="vote_count_desc">
+            Vote Count Desc
+          </option>
+          <option value="original_title.desc" class="original_title_desc">
+            Original Title Desc
+          </option>
+        </select>
+      </div>
+      <form>
+        <input type="text" id="search" placeholder="Search..." class="search" />
+      </form>
+    </header>
+    <div class="tegs"></div>
+    <main class="main">
+      <!-- <div class="movie">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_480x.progressive.jpg?v=1573652543"
+                    alt="poster"
+                />
+                <div class="movie-info">
+                    <h3>The Avengers</h3>
+                    <span class="green">9.8</span>
+                </div>
+                <div class="overview">
+                    <h3>Overview</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Tempore iure deserunt nisi maiores commodi cum.
+                </div>
+            </div>
+            <div class="movie">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_480x.progressive.jpg?v=1573652543"
+                    alt="poster"
+                />
+                <div class="movie-info">
+                    <h3>The Avengers</h3>
+                    <span class="green">9.8</span>
+                </div>
+                <div class="overview">
+                    <h3>Overview</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Tempore iure deserunt nisi maiores commodi cum.
+                </div>
+            </div>
+            <div class="movie">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_480x.progressive.jpg?v=1573652543"
+                    alt="poster"
+                />
+                <div class="movie-info">
+                    <h3>The Avengers</h3>
+                    <span class="green">9.8</span>
+                </div>
+                <div class="overview">
+                    <h3>Overview</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Tempore iure deserunt nisi maiores commodi cum.
+                </div>
+            </div>
+            <div class="movie">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/108b520c55e3c9760f77a06110d6a73b_480x.progressive.jpg?v=1573652543"
+                    alt="poster"
+                />
+                <div class="movie-info">
+                    <h3>The Avengers</h3>
+                    <span class="green">9.8</span>
+                </div>
+                <div class="overview">
+                    <h3>Overview</h3>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Tempore iure deserunt nisi maiores commodi cum.
+                </div>
+            </div> -->
+    </main>
+    <div class="pagination">
+      <ul class="link-list">
+        <li>
+          <button type="button" class="page" id="prev">Previous</button>
+        </li>
+        <li>
+          <button type="button" class="current" id="current">1</button>
+        </li>
+        <li>
+          <button type="button" class="page" id="next">Next</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
